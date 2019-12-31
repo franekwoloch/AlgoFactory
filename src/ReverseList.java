@@ -1,4 +1,11 @@
 public class ReverseList implements Algo {
+
+
+    @Override
+    public void infoAlgo() {
+
+    }
+
     @Override
     public void inputAlgo() {
 
