@@ -1,8 +1,9 @@
+import java.util.ArrayList;
 import java.util.List;
 
 public class ReverseList implements Algo {
     List<Integer> list;
-    List<Integer> reversedList;
+    List<Integer> reversedList=new ArrayList<>();
 
     public ReverseList(){
         list=List.of(1,2,3,4,5,6,7,8,9,10);
@@ -24,8 +25,8 @@ public class ReverseList implements Algo {
     @Override
     public void runAlgo() {
         int listLength =list.size();
-        for (int i=0;i<listLength;i++){
-            reversedList.add(i,list.get(listLength-i));
+        for (int i=0;i<listLength;i++) {
+            reversedList.add(list.get((listLength - i - 1)));
         }
     }
 

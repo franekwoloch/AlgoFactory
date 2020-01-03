@@ -47,8 +47,6 @@ public class FizzBuzz implements Algo {
 
     @Override
     public void runAlgo() {
-        infoAlgo();
-        inputAlgo();
 
     }
 
