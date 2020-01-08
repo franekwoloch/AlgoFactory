@@ -11,6 +11,10 @@ public class AlgoCreator {
         else if (type.equals("ReverseLinkedList")){
             return new ReverseLinkedList();
         }
+
+        else if (type.equals("CycleList")){
+            return new CycleList();
+        }
         else {
             throw new IllegalArgumentException("Unknown type "+type );
         }

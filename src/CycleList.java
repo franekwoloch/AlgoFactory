@@ -22,6 +22,7 @@ public class CycleList implements Algo {
         System.out.println("Linked list with cycle: ");
         createCycle();
         printList(cycleList);
+        System.out.println("Linked list with no cycle: ");
         createNoCycle();
         printList(noCycleList);
     }
@@ -36,8 +37,8 @@ public class CycleList implements Algo {
 
     @Override
     public void resultsAlgo() {
-        System.out.println("Cycle list is cycle?: ");
-        System.out.println("No cycle list is cycle?: ");
+        System.out.println("Cycle list is cycle?: "+isCycleCycleList);
+        System.out.println("No cycle list is cycle?: "+isCycleNoCycleList);
 
     }
 
@@ -62,6 +63,18 @@ public class CycleList implements Algo {
     }
 
     public boolean isCycle(LinkedList list){
-        return false;
+        boolean result=false;
+        boolean run=true;
+        int tartle;
+        int hare;
+        for (int i=0; (i<(list.size()/2))&&run;i++){
+            tartle=i;
+            hare=2*i;
+            if (i>0&&(list.get(tartle)==list.get(hare))) {
+                result= true;
+                run=false;
+            }
+        }
+        return result;
     }
 }

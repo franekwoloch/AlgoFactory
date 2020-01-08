@@ -7,7 +7,7 @@ public class Main {
         algoFactory.manufactureAlgo("FizzBuzz");
         algoFactory.manufactureAlgo("ReverseList");
         algoFactory.manufactureAlgo("ReverseLinkedList");
+        algoFactory.manufactureAlgo("CycleList");
         System.out.println("Good bye!");
-
     }
 }
