@@ -8,10 +8,7 @@ public class FizzBuzz implements Algo {
 
 
     public FizzBuzz() {
-        int i;
-        for (i = 0;i<100; i++) {
-            numbers[i] = i;
-        }
+        createNumbers();
     }
 
     @Override
@@ -62,5 +59,12 @@ public class FizzBuzz implements Algo {
         Fizz();
         Buzz();
         FizzBuzz();
+    }
+
+    private void createNumbers(){
+        int i;
+        for (i = 0;i<100; i++) {
+            numbers[i] = i;
+        }
     }
 }
