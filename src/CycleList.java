@@ -77,4 +77,7 @@ public class CycleList implements Algo {
         }
         return result;
     }
+
 }
+
+
