@@ -1,3 +1,5 @@
+package algo;
+
 import java.util.Arrays;
 
 public class FizzBuzz implements Algo {
@@ -13,8 +15,13 @@ public class FizzBuzz implements Algo {
     }
 
     @Override
+    public String getName(){
+        return "FizzBuzz";
+    }
+
+    @Override
     public void infoAlgo() {
-        System.out.println("FizzBuzz algorithmn");
+        System.out.println("algo.FizzBuzz algorithmn");
 
     }
 
@@ -41,7 +48,7 @@ public class FizzBuzz implements Algo {
     public void FizzBuzz(){
         for (int i=0; i<100; i++){
             if (numbers[i]%15==0)
-            System.out.println("i="+i+" - FizzBuzz!");
+            System.out.println("i="+i+" - algo.FizzBuzz!");
         }
     }
 

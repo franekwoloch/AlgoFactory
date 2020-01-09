@@ -1,3 +1,5 @@
+package algo;
+
 import java.util.LinkedList;
 
 public class CycleList implements Algo {
@@ -9,6 +11,12 @@ public class CycleList implements Algo {
 
 
     public CycleList() {
+
+    }
+
+    @Override
+    public String getName(){
+        return "CycleList";
     }
 
     @Override

@@ -1,3 +1,5 @@
+import algo.Algo;
+
 public class AlgoFactory {
     AlgoCreator algoCreator;
 

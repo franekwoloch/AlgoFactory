@@ -1,3 +1,5 @@
+package algo;
+
 import java.util.LinkedList;
 
 public class ReverseLinkedList implements Algo {
@@ -10,8 +12,13 @@ public class ReverseLinkedList implements Algo {
     }
 
     @Override
+    public String getName(){
+        return "ReverseLinkedList";
+    }
+
+    @Override
     public void infoAlgo() {
-        System.out.println("Algo reversing linked list");
+        System.out.println("algo.Algo reversing linked list");
     }
 
     @Override
