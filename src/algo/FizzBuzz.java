@@ -6,7 +6,6 @@ public class FizzBuzz implements Algo {
 
     int [] numbers= new int[100];
 
-
     public FizzBuzz() {
         createNumbers();
     }
