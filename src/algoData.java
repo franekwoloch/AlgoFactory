@@ -1,10 +1,8 @@
+package algo;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class algoData {
-List<String> algoList=new ArrayList<>();
 
-
-
+    public static List<String> algos=List.of("CycleList","FizzBuzz","ReverseLinkedList","ReverseList");
 }

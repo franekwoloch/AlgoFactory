@@ -8,5 +8,4 @@ public interface Algo {
     public void resultsAlgo();
     public String getName();
 
-
 }

@@ -9,18 +9,7 @@ public class Main {
         algoFactory.manufactureAlgo("algo.ReverseLinkedList");
         algoFactory.manufactureAlgo("algo.CycleList");
         Printer.sayGoodBye();
-        interfaceChecker();
-
     }
 
-    public static void interfaceChecker() throws ClassNotFoundException {
-        System.out.println("Checking interfaces.....");
-        String className="algo.FizzBuzz";
-        Class c = Class.forName(className);
-        System.out.println(c.getName());
-        System.out.println("???");
-        Class[] classes = c.getInterfaces();
-        System.out.println(classes.length);
 
-    }
 }

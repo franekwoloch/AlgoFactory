@@ -11,7 +11,6 @@ public class CycleList implements Algo {
 
 
     public CycleList() {
-
     }
 
     @Override
